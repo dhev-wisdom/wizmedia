@@ -1,1 +1,1 @@
-# wizmedia
+Wizmedia Django App
