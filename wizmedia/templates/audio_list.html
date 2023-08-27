@@ -5,10 +5,10 @@
 <h2 class="text-center">Audio Page</h2>
 <div class="image-grid">
     {% for item in audio %}
-        <div class=" per-img text-center">
+        <div class="per-img text-center">
             <h3>{{ item.title }}</h3>
             <audio controls>
-                <source src="{{ item.audio.url }}" type="audio/mp3">
+                <source src="{{ item.audio.url }}" type="audio/mpeg">
                 Your browser does not support the audio element.
             </audio>
             <p>{{item.audio_description}}</p>
